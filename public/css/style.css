@@ -1,0 +1,18 @@
+body{
+ background-color: mediumslateblue;
+ color: black;
+}
+
+nav {
+	margin-top: 20px;
+	padding: 10px 0;
+	border-top: 1px solid #969696;
+	border-bottom: 1px solid #969696;
+	margin-bottom: 20px;
+}
+
+a{
+	font-size: 30px;
+	text-decoration: none;
+	color: #0ff;
+}
