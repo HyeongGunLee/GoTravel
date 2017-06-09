@@ -1,17 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Hello</title>
+      <link rel = "stylesheet" href="css/bootstrap.css">  
+     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-  <link rel="stylesheet" type="text/css" href="css/style.css">   
+    
+     
+       <h1>Upload Your Best Trip pictures here !!</h1>
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th>Number</th>
+            <th>Place</th>
+            <th>Date</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>    
+            <td>Canada</td>
+            <td>2016.05.05</td>
+        </tr>
+        <tr>
+            <td>2</td>    
+            <td>Mexico</td>
+            <td>2016.07.08</td>
+        </tr>
+        <tr>
+            <td>3</td>    
+            <td>Japan</td>
+            <td>2017.02.25</td>
+        </tr>
+        </tbody>
+    </table>
+    
+    
+    <br>
+    
+    
+    <div class ="add" align ="center">
 <h1>Upload Image</h1>
-<font size="5">Name :</font>&nbsp;&nbsp;<input type="text" name="name" />
+        <button type="button" class="btn btn-primary">Add Image</button>
+<font size="5">Place :</font>&nbsp;&nbsp;<input type="text" name="name" />
         <br>
         <br>
-        <input type='file' name='upload' /><br>
+        <input type='file' name='upload' class ="btn btn-primary" /><br>
         <br>
-        <input type='submit' />
-
+        <input type='submit' class = "btn" />
+</div>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
 </html>
